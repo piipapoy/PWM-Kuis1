@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arap's Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#" class="logo">
+        <img src="assets/rumah.png" alt="logo-rumah" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">about</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#playground">playground</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home">
+      <img src="assets/bg.png" alt="" class="home-bg" />
+      <div class="home-content">
+        <h1 class="home-title">
+          Hey, i'm
+          <img src="assets/avatar.png" alt="Arap's avatar" class="avatar" />
+          <span class="name">Arap</span>
+        </h1>
+        <p class="tagline">
+          Bridging human creativity and AI: Designer
+          <img src="assets/artist-emoji.png" alt="Artist Emoji" class="emoji" />
+        </p>
+        <p class="hook">
+          I use AI to discover visuals that the human mind alone can't reach. Consider it my unfair advantage.
+          <img src="assets/smirking-face.png" alt="Smirking Face" class="emoji" />
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <section class="about">
+    <div class="about-box">
+      <p>
+        I'm a <span class="highlight-blue">Computer Science student (UPI '24)</span> whose true passion is in
+        <span class="highlight-blue">pixels</span>. My technical background allows me to design
+        <span class="highlight-blue">beautiful</span> experiences that are also
+        <span class="highlight-pink">buildable</span>, and I'm excited to find opportunities to
+        <span class="highlight-pink">bridge the gap</span> between powerful code and
+        <span class="highlight-pink">human-centered design</span>.
+      </p>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="projects-header">
+      <h2 class="projects-title">Projects</h2>
+      <p class="projects-tagline">
+        My recent work
+        <img src="assets/hammer-and-pick.png" alt="Hammer and Pick" class="emoji" />
+      </p>
+    </div>
+
+    <div class="project-list">
+      <div class="project-card">
+        <div class="project-frame">
+          <img src="project-playground/project-1.png" alt="Ma'rifah EduApp Screenshot" class="project-image-fill" />
+          <span class="project-corner top-left"></span>
+          <span class="project-corner top-right"></span>
+          <span class="project-corner bottom-left"></span>
+          <span class="project-corner bottom-right"></span>
+        </div>
+        <div class="project-details">
+          <h3>Ma'rifah EduApp</h3>
+          <p>
+            Aplikasi forum dan komunitas yang didedikasikan untuk diskusi tanya jawab, dan pengembangan Islam yang lebih mendalam.
+          </p>
+          <ul class="project-tags">
+            <li>MOBILE</li>
+            <li>UI/UX</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-frame">
+          <img src="project-playground/project-2.png" alt="SampahKita! Screenshot" class="project-image-fill" />
+          <span class="project-corner top-left"></span>
+          <span class="project-corner top-right"></span>
+          <span class="project-corner bottom-left"></span>
+          <span class="project-corner bottom-right"></span>
+        </div>
+        <div class="project-details">
+          <h3>SampahKita!</h3>
+          <p>
+            Platform pelaporan dan komunitas yang didedikasikan untuk diskusi, kolaborasi warga, dan aksi bersih-bersih yang lebih terorganisir.
+          </p>
+          <ul class="project-tags">
+            <li>WEB</li>
+            <li>UI/UX</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-frame">
+          <img src="project-playground/project-3.png" alt="Future Project Screenshot" class="project-image-fill" />
+          <span class="project-corner top-left"></span>
+          <span class="project-corner top-right"></span>
+          <span class="project-corner bottom-left"></span>
+          <span class="project-corner bottom-right"></span>
+        </div>
+        <div class="project-details">
+          <h3>Future Project (?)</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit tempus, molestie magna in, dignissim erat.
+          </p>
+          <ul class="project-tags">
+            <li>TAG</li>
+            <li>TAG</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="playground" id="playground">
+    <div class="projects-header">
+      <h2 class="projects-title">Playground</h2>
+      <p class="projects-tagline">
+        A glimpse into my visual experiments
+        <img src="assets/microscope.png" alt="Microscope" class="emoji" />
+      </p>
+    </div>
+
+    <div class="playground-grid">
+      <div class="playground-item">
+        <img src="project-playground/playground-1.jpg" alt="Playground image 1" />
+      </div>
+      <div class="playground-item">
+        <img src="project-playground/playground-2.jpg" alt="Playground image 2" />
+      </div>
+      <div class="playground-item">
+        <img src="project-playground/playground-3.jpg" alt="Playground image 3" />
+      </div>
+      <div class="playground-item">
+        <img src="project-playground/playground-4.jpg" alt="Playground image 4" />
+      </div>
+    </div>
+  </section>
+</body>
+<footer class="contact" id="contact">
+    <h2 class="contact-title">Let's Connect</h2>
+
+    <div class="social-links">
+        <a href="mailto:rappepu@upi.edu">
+            <img src="assets/gmail.png" alt="Email Icon">
+            <span>Mail me</span>
+        </a>
+        <a href="https://id.linkedin.com/in/m-raffa-mizanul-insan-9a5b82366" target="_blank">
+            <img src="assets/linkedin.png" alt="LinkedIn Icon">
+            <span>LinkedIn</span>
+        </a>
+        <a href="https://instagram.com/piipapoy" target="_blank">
+            <img src="assets/instagram.png" alt="Instagram Icon">
+            <span>Instagram</span>
+        </a>
+    </div>
+
+    <p class="footer-credit">Handmade with <3</p>
+    <img src="assets/signature.png" alt="Signature" class="signature">
+</footer>
+</html>
