@@ -407,7 +407,6 @@ nav {
 }
 
 @media (max-width: 1024px) {
-    /* Mengurangi padding horizontal utama */
     .home-content,
     .projects-header {
         padding-left: 60px;
@@ -419,7 +418,6 @@ nav {
         padding-right: 40px;
     }
 
-    /* Sedikit perkecil font judul */
     .home-title,
     .projects-title {
         font-size: 90px;
@@ -429,7 +427,6 @@ nav {
         font-size: 24px;
     }
 
-    /* Izinkan gambar playground untuk wrap */
     .playground-grid {
         flex-wrap: wrap;
     }
